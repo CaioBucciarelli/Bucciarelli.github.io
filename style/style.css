@@ -1,0 +1,622 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url('ValorantFont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Arabic';
+    src: url('DIN-Next-LT-Arabic-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Grand Regular';
+    src: url('NTF-Grand-Regular.otf') format('opentype');
+}
+
+body{
+    background-color: #FFFFFF;
+
+}
+
+h1{
+    font-family: 'Valorant';
+}
+button{
+    font-family: 'Valorant';
+}
+.retangulo{
+    width: 375px;
+    height: 50px;
+    background: black;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 10;
+}
+
+.Menu {
+    font-family: 'Valorant';
+    font-size: 30px;
+    color: #ffffff;
+    position: fixed;
+    left: 120px;
+    top: 15px;
+    z-index: 10;
+}
+
+.botaoVoltar{
+    top: 10px;
+    position: absolute;
+    left: 20px;
+    width: 30px;
+    z-index: 20;
+}
+
+.botao1 {
+    color: white;
+    position: absolute;
+    top: 530px;
+    left: 130px;
+    border: none;
+    padding: 15px 32px;
+    font-size: 25px;
+    background-color: #101622;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: black 0px 0.5px 15px;
+    
+    
+}
+
+.textoComoJogar{
+    color:#F2E5DD;
+    text-shadow: black 1px 1px 10px;
+    font-family: 'Grand Regular';
+    font-size: 1.7em;
+    position: absolute;
+    top: 620px;
+    left: 42px;
+    right: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.fundo{
+    width: 375px;
+    height: 690px;
+    background-color: #ff455f;
+}
+
+.phoenix{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 100%;
+    left: 1px;
+    
+}
+
+.logo{
+    position: absolute;
+    opacity: 0.7;
+    width: 350px;
+    top: 100px;
+    left: 12px;
+}
+
+.botao2 {
+    color: white;
+    position: absolute;
+    top: 1400px;
+    left: 45px;
+    border: none;
+    padding: 15px 32px;
+    font-size: 24px;
+    background-color: #101622;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: black 0px 0.5px 15px;
+    
+    
+}
+.mapa{
+    top: 1141px;
+    position: absolute;
+    width: 375px;
+    
+
+}
+
+
+.h1Mapas{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 4em;
+    top: 750px;
+    left: 20px;
+}
+
+.h2Batalhe{
+    position: absolute;
+    font-family: 'Grand Regular';
+    font-size: 1.7em;
+    top: 845px;
+    left: 20px;
+}
+
+.textoMapa{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 890px;
+    left: 20px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.botao3 {
+    color: white;
+    position: absolute;
+    top: 2165px;
+    left: 43px;
+    border: none;
+    padding: 15px 32px;
+    font-size: 22px;
+    background-color: #ff455f;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: black 0px 0.5px 15px;
+}
+
+.fundoPreto{
+    position: absolute;
+    width: 375px;
+    height: 785px;
+    background-color: black;
+    top: 1490px;
+}
+.sova{
+    position: absolute;
+    width: 240px;
+    top: 1940px;
+    left: 5px;
+}
+
+.jett{
+    position: absolute;
+    width: 240px;
+    top: 1910px;
+    left: 135px; 
+}
+.h1Agentes{
+    color: white;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+    top: 1545px;
+    left: 20px;
+    font-size: 4em;
+}
+
+.textoCriatividade{
+    color: white;
+    position: absolute;
+    font-family: 'Grand Regular';
+    font-size: 1.7em;
+    top: 1635px;
+    left: 20px;
+}
+
+.textoAgentes{
+    color: white;
+    position: absolute;
+    font-family: 'Arabic';
+    top: 1680px;
+    left: 20px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.h1Riot{
+    color: black;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    top: 2400px;
+    left: 20px;
+}
+
+.h2Riot{
+    color: black;
+    position: absolute;
+    font-family: 'Grand Regular';
+    font-size: 1.7em;
+    top: 2490px;
+    left: 20px;
+}
+
+.textoRiot{
+    color: rgb(95, 95, 95);
+    position: absolute;
+    font-family: 'Arabic';
+    font-size: 1.3em;
+    top: 2535px;
+    left: 20px;
+}
+
+.riot{
+    position: absolute;
+    width: 290px;
+    top: 2750px;
+    left: 40px; 
+}
+
+.botaoRiot{
+    border: none;
+    text-decoration: none;
+}
+.fundoPreto2{
+    position: absolute;
+    width: 375px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    top: 2900px
+}
+.pBaixe{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: 'Grand Regular';
+    text-align: center;
+    font-size: 1.5em;
+    top: 30px;
+    left: 150px;
+    opacity: 0.7;
+}
+
+.pCriadores{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: 'Grand Regular';
+    text-align: center;
+    font-size: 1.5em;
+    top: 90px;
+    left: 120px;
+    opacity: 0.7;
+}
+
+.classificacao{
+    position: absolute;
+    width: 200px;
+    top: 170px;
+    left: 90px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.h1MapasAscent{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 80px;
+    left: 20px;
+}
+
+.textoAscent{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 140px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.mapaAscent{
+    top: 330px;
+    position: absolute;
+    width: 375px;
+}
+
+/*-----*/
+
+.fundoSplit{
+    width: 375px;
+    height: 600px;
+    background-color: #ECECEC;
+    margin-top: 619px;
+}
+
+.mapaSplit{ 
+    top: 1000px;
+    position: absolute;
+    width: 375px;
+}
+
+.h1MapasSplit{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 700px;
+    left: 20px;
+}
+
+.textoSplit{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 770px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+    width: 17em;
+}
+
+/*-------*/
+
+
+
+.mapaBind{ 
+    top: 1485px;
+    position: absolute;
+    width: 375px;
+}
+
+.h1MapasBind{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 1250px;
+    left: 20px;
+}
+
+.textoBind{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 1320px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+    width: 17em;
+}
+
+/*------*/
+
+.classificacaoTela3{
+    position: absolute;
+    width: 200px;
+    top: 170px;
+    left: 90px;
+
+}
+
+.fundoPretoTela3{
+    position: absolute;
+    width: 375px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    top: 1695px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.h1Duelistas{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 70px;
+    left: 20px;
+}
+
+.imgDuelistas{
+    top: 275px;
+    position: absolute;
+    width: 375px;
+}
+
+.textoDuelistas{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 160px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+/*------*/
+
+.h1Iniciadores {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 700px;
+    left: 20px;
+}
+
+.imgIniciadores{
+    top: 1050px;
+    position: absolute;
+    width: 375px;
+}
+
+.textoIniciadores{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 770px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.fundoIniciadores{
+    width: 375px;
+    height: 380px;
+    background-color: #ECE7E1;
+    margin-top: 670px;
+}
+
+/*------*/
+
+.h1Controladores{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 1300px;
+    left: 20px;
+}
+
+.imgControladores{
+    top: 1600px;
+    position: absolute;
+    width: 375px;
+}
+
+.textoControladores{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 1370px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.fundoControladores{
+    width: 375px;
+    height: 600px;
+    background-color: #ebebf2;
+    margin-top: 200px;
+}
+
+/*-------*/
+
+.classificacaoTela4{
+    position: absolute;
+    width: 200px;
+    top: 170px;
+    left: 90px;
+
+}
+
+.fundoPretoTela4{
+    position: absolute;
+    width: 375px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    top: 1850px
+    
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.h1VALORANT{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 70px;
+    left: 20px;
+    color: #0F1923;
+}
+
+.fundoVALORANT{
+    width: 375px;
+    height: 620px;
+    background-color: #ECE8E1;
+    margin-top: 50px;
+}
+
+.textoVALORANT{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 160px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.imgVALORANT{
+    top: 420px;
+    left: 20px;
+    position: absolute;
+    width: 337px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.fundoPreto0{
+    position: absolute;
+    width: 375px;
+    height: 400px;
+    background-color: black;
+    top: 631px;
+}
+
+.textoEmpresa{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 150px;
+    left: 16px;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.riotGames{
+    top: 70px;
+    left: 20px;
+    position: absolute;
+    width: 100px;
+}
+
+.escritorio{
+    top: 400px;
+    left: 20px;
+    position: absolute;
+    width: 337px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.textoCriadores{
+    position: absolute;
+    font-family: 'Arabic';
+    top: 200px;
+    left: 16px;
+    font-size: 1.4em;
+    width: 15em;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.fiap{
+    margin-top: 380px;
+    margin-left: 45px;
+    width: 300px;
+}
+
+.fundoPretoTela6{
+    position: absolute;
+    width: 375px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    top: 600px;
+}
+
+.h1CRIADORES{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    top: 100px;
+    left: 20px;
+    color: #0F1923;
+}
